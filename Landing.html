@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Course</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+<header>
+  <h1>قسم علوم الحاسب - كلية العلوم - جامعة بني سويف</h1>
+  <nav>
+    <a href="landing.html">الرئيسية</a>
+    <a href="#sec1">عن الدورة</a>
+    <a href="#sec2">المنهج الدراسي</a>
+    <a href="#sec3">تواصل معنا</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Web Development - Practical Labs</h1>
+  <p>أساسيات تطوير الواجهات الأمامية - د. مروة هاشم - د. أحمد جمال</p>
+  <a href="index.html" class="cta-button">سجل الآن</a>
+</section>
+
+<section class="section" id="sec1">
+  <h2>عن الدورة</h2>
+  <p>هذه الدورة مصممة لتعليمك أساسيات تطوير الويب بشكل عملي وتطبيقي.</p>
+</section>
+
+<section class="section" id="sec2">
+  <h2>المنهج الدراسي</h2>
+  <ul>
+    <li>مقدمة في تطوير الويب</li>
+    <li>HTML و CSS أساسيات</li>
+    <li>تطوير الويب responsively</li>
+    <li>واجهات المستخدم وتصميم الويب</li>
+  </ul>
+</section>
+
+<section class="section" id="sec3">
+  <h2>تواصل معنا</h2>
+  <p>إذا كان لديك أي استفسار أو استفسار حول الدورة، فلا تتردد في الاتصال بنا.</p>
+  <a href="#" class="cta-button">اتصل بنا</a>
+</section>
+
+</body>
+<script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</html>
