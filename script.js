@@ -84,7 +84,21 @@ const courseData = [
             "نماذج تدريب مع الحلول",
             "<a class='download-button' href='https://drive.google.com/drive/folders/1wIbowGlk1ObjuGXaxXlBPuGkrIxLJ8Fu?usp=drive_link' target='_blank'>تحميل</a>"
         ]
-    }
+    },
+    {
+        title: "شرح النماذج",
+        descriptions: ["(مقدمة)الجزء الأول", "السؤال الأول","السؤال الثاني","السؤال الثالث","السؤال الرابع","السؤال الخامس","السؤال السادس"],
+        videoURLs: ["https://drive.google.com/file/d/1YWhky8FjXhujaG1KqNEbk62f5ou7PkW5/preview",
+        "https://drive.google.com/file/d/1HZzAeqC4f3ZewatLME_Fht9-7NuPdoa6/preview",
+        "https://drive.google.com/file/d/1jRWn01ieGpIuK0C-S3dk3kazWqJp4Tja/preview",
+        "https://drive.google.com/file/d/1_LXGJ3fBQwcE93aAJ2gJbWnnXxfhSkEq/preview",
+        "https://drive.google.com/file/d/1D8J3tkyeOeJT03n-cPIz1cB_ewdakhQA/preview",
+        "https://drive.google.com/file/d/1enWZaG510cmHdZ1AX_BBpkBVtMewB2Su/preview",
+        "https://drive.google.com/file/d/1tywhejnC2YiMuliK-2gj0ejoxLTImWFY/preview",],
+        objectives: [
+            "تدريبات"
+        ]
+    },
 ];
 
 function populateSyllabus() {
